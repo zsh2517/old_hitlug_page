@@ -1,9 +1,9 @@
 <template>
     <el-row :gutter="24">
-        <el-col :xl="3" :lg="3" :md="3" class="hidden-sm-and-down">
+        <el-col :xl="3" :lg="2" :md="1" :sm="1" class="hidden-xs-and-down">
             <div style="display:block; height: 1px; width: 1px;"></div>
         </el-col>
-        <el-col :xl="18" :lg="18" :md="18" :sm="24" :xs="24" style="">
+        <el-col :xl="18" :lg="20" :md="22" :sm="22" :xs="24" style="">
             <introduction/>
             <event/>
             <activities/>
