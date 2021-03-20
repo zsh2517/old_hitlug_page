@@ -9,7 +9,7 @@
             <img class="head-img-logo" src="./assets/images/logo.png"/>
         </div>
         <container class="container"/>
-        <div style="height: 100px; background-color: white; margin-top: 40px">
+        <div style="height: 128px; background-color: rgb(51, 51, 51); margin-top: 40px; padding: 20px 10px">
         </div>
     </div>
 </template>
