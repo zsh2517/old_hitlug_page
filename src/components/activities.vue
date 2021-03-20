@@ -30,7 +30,7 @@ export default {
                     name: "关于一款“三维动画”软件 (Blender) 跨圈承包其他工作的这档事",
                     time: "2020.12.13",
                     place: "正心 303",
-                    author: "FZQ0003(冯紫麒)",
+                    author: "FZQ0003",
                     image: "blender.png"
                 },
                 {name: "软件自由日 2020", time: "2020.10.18", place: "B111", author: "HITLUG & HITMSC", image: "sfd.png"},
@@ -39,24 +39,24 @@ export default {
                     name: "开源软件在虚拟网络与 DN42 中的应用",
                     time: "2020.04.19",
                     place: "线上",
-                    author: "billchenchina(陈天宇)",
+                    author: "billchenchina",
                     image: "dn42.png"
                 },
                 {name: "微纳卫星&开源", time: "2020.04.12", place: "线上", author: "黄家和", image: "space.png"},
                 {name: "正则表达式 regex 介绍", time: "2020.04.05", place: "线上", author: "leylee", image: "regex.jpg"},
-                {name: "emacs 的简单配置", time: "2020.03.29", place: "线上", author: "mortis-0(袁龙云)", image: "emacs.png"},
+                {name: "emacs 的简单配置", time: "2020.03.29", place: "线上", author: "mortis-0", image: "emacs.png"},
                 {
                     name: "一个 Linux 戏精的科研环境",
                     time: "2020.03.22",
                     place: "线上",
-                    author: "dustincys(初砚硕)",
+                    author: "dustincys",
                     image: "linux.png"
                 },
                 {
                     name: "使用 QEMU/KVM/Libvirt 运行带有硬件显示加速的 Windows 虚拟机",
                     time: "2020.03.15",
                     place: "线上",
-                    author: "12101111(韩朴宇)",
+                    author: "12101111",
                     image: "VirtualMachines.png"
                 },
                 {

@@ -57,9 +57,9 @@ export default {
     data() {
         return {
             activities: [
-                {timestamp: "2020-11-29", content: "Mirrors 开放公网访问"},
+                {timestamp: "2020-11-29", content: "GitLab 开放公网访问"},
                 {timestamp: "2020-10-15", content: "GitLab 上线"},
-                {timestamp: "2020-06-20", content: "Mirrors 公网"},
+                {timestamp: "2020-06-20", content: "Mirrors 开放公网访问"},
                 {timestamp: "2020-03-15", content: "开始 HITLUG Talk 系列"},
                 {timestamp: "2019-11-16", content: "LUG 注册成立"},
                 {timestamp: "2019-08-13", content: "Mirrors 上线"},
