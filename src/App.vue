@@ -1,8 +1,12 @@
 <template>
     <div id="app" style="font-family: consolas">
         <!-- <div class="img-head"></div> -->
-        <div class="head-bg">
+        <div class="head-bg hidden-sm-and-up">
             <img class="head-img" src="./assets/images/header_alpha.png"/>
+        </div>
+        <div class="head-bg hidden-xs-only" style="padding-top: 20px; padding-bottom: 20px;">
+            <img class="head-img-text" src="./assets/images/text.png"/>
+            <img class="head-img-logo" src="./assets/images/logo.png"/>
         </div>
         <container class="container"/>
         <div style="height: 100px; background-color: white; margin-top: 40px">
@@ -58,8 +62,9 @@ body {
 
 
 .head-bg {
-    max-height: 300px;
-    display: block;
+    max-height: 200px;
+    display: flex;
+    justify-content: space-around;
     margin: auto;
     text-align: center;
     max-width: 100%;
@@ -68,7 +73,33 @@ body {
 
 .head-img {
     display: inline-block;
+    /*display: block;*/
     max-width: 100%;
-    max-height: 300px;
+    max-height: 180px;
+}
+
+.head-img-text {
+    display: inline-block;
+    /*display: block;*/
+    max-width: 100%;
+    max-height: 180px;
+}
+
+.head-img-logo {
+    display: inline-block;
+    /*display: block;*/
+    max-width: 100%;
+    max-height: 180px;
+    -webkit-transition: -webkit-transform 1s linear;
+    transition: transform 1s linear;
+}
+
+.head-img-logo:hover {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+    -webkit-transition-delay: 2s;
+    transition-delay: 2s;
+    -webkit-transition: -webkit-transform 2s linear;
+    transition: transform 2s linear;
 }
 </style>
