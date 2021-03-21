@@ -1,5 +1,5 @@
 <template>
-    <el-row :gutter="24" contenteditable>
+    <el-row :gutter="24">
         <el-col :xl="3" :lg="2" :md="1" :sm="1" class="hidden-xs-and-down">
             <div style="display:block; height: 1px; width: 1px;"></div>
         </el-col>
