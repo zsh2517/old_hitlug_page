@@ -1,6 +1,5 @@
 <template>
     <div>
-        <el-divider/>
         <div style="text-align: center; width: 100%;">
             <h1>介绍</h1>
         </div>

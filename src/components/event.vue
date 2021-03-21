@@ -9,8 +9,8 @@
             <el-col :xl="2" :lg="1" class="hidden-md-and-down">
                 <div style="display:block; height: 1px; width: 1px;"></div>
             </el-col>
-            <el-col :xs="24" :sm="24" :md="24" :lg="7" :xl="6">
-                <el-timeline style="margin-top: 1em">
+            <el-col :xs="24" :sm="24" :md="24" :lg="7" :xl="6" style="text-align: left">
+                <el-timeline style="margin-top: 1em; display: inline-block;">
                     <el-timeline-item
                             v-for="(activity, index) in activities"
                             :key="index"
@@ -23,7 +23,7 @@
                     </el-timeline-item>
                 </el-timeline>
             </el-col>
-            <el-col :xs="24" :sm="24" :md="24" :lg="15" :xl="14">
+            <el-col :xs="24" :sm="24" :md="24" :lg="14" :xl="13">
                 <el-card>
                     <div>
                         <div>
