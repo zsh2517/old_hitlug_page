@@ -29,7 +29,7 @@
                         <div>
                             <b style="font-size: larger">Mirrors</b>
                         </div>
-                        哈尔滨工业大学开源镜像站于 2019 年 8 月成立，并于 2020 年 6 月开放了校外访问。目前镜像站存储了近 40TB 的数据，已成为 CTAN、Archlinux、Ubuntu 等源的官方镜像。镜像站包括了常用 OS（如 Ubuntu、CentOS 等）的 ISO 下载与软件源，常用工具更新源与下载（如 CTAN、Anaconda、PyPI、VirtualBox）。
+                        哈尔滨工业大学开源镜像站<span title="镜子站">于</span> 2019 年 8 月成立，并于 2020 年 6 月开放了校外访问。目前镜像站存储了近 40TB 的数据，已成为 CTAN、Archlinux、Ubuntu 等源的官方镜像。镜像站包括了常用 OS（如 Ubuntu、CentOS 等）的 ISO 下载与软件源，常用工具更新源与下载（如 CTAN、Anaconda、PyPI、VirtualBox）。
                     </div>
                     <el-divider></el-divider>
                     <div>
