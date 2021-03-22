@@ -13,7 +13,7 @@
                                                                href="mailto:lug@hit.edu.cn">lug@hit.edu.cn</a><br/>
                     </div>
                     <div style="font-size: smaller">QQ 群: 1153235504<br/></div>
-                    <div style="font-size: smaller"><a href="https://github.com/hitlug/issues">Issues(GitHub)</a><br/>
+                    <div style="font-size: smaller"><a href="https://github.com/hitlug/issues">Issues @ GitHub</a><br/>
                     </div>
                 </div>
                 <div style="text-align: right;">
@@ -33,7 +33,7 @@
                                                                href="mailto:lug@hit.edu.cn">lug@hit.edu.cn</a><br/>
                     </div>
                     <div style="font-size: smaller">QQ 群: 1153235504<br/></div>
-                    <div style="font-size: smaller"><a href="https://github.com/hitlug/issues">Issues(GitHub)</a><br/>
+                    <div style="font-size: smaller"><a href="https://github.com/hitlug/issues">Issues @ GitHub</a><br/>
                     </div>
                 </div>
                 <br/>

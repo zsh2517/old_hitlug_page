@@ -29,21 +29,22 @@
                         <div>
                             <b style="font-size: larger">Mirrors</b>
                         </div>
-                        Mirrors 介绍
+                        哈尔滨工业大学开源镜像站于 2019 年 8 月成立，并于 2020 年 6 月开放了校外访问。目前镜像站存储了近 40TB 的数据，已成为 CTAN、Archlinux、Ubuntu 等源的官方镜像。镜像站包括了常用 OS（如 Ubuntu、CentOS 等）的 ISO 下载与软件源，常用工具更新源与下载（如 CTAN、Anaconda、PyPI、VirtualBox）。
                     </div>
                     <el-divider></el-divider>
                     <div>
                         <div>
                             <b style="font-size: larger">Gitlab</b>
                         </div>
-                        GitLab 介绍
+                        哈尔滨工业大学 GitLab 服务上线于 2020 年 10 月，并于 2020 年 11 月开放了校外访问，能够为校内师生提供流畅的代码仓库托管服务。
+
                     </div>
                     <el-divider></el-divider>
                     <div>
                         <div>
                             <b style="font-size: larger">HITLUG Talk</b>
                         </div>
-                        HITLUG Talk 介绍
+                        HITLUG Talk 为俱乐部特色活动，是针对某项技术 / 某个技术链的技术交流。
                     </div>
                 </el-card>
             </el-col>
