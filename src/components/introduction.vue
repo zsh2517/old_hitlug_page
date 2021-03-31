@@ -17,7 +17,7 @@
                 <el-col :lg="12">
                     <div style="padding: 2em;">
                         <h2>{{ item.title }}</h2>
-                        {{ item.text }}
+                        <span v-html="item.text"></span>
                     </div>
                 </el-col>
                 <el-col v-if="index % 2 === 0" :lg="12" class="hidden-md-and-down" style="height: 100%;">
@@ -37,15 +37,15 @@ export default {
             list: [
                 {
                     "title": "HITLUG",
-                    "text": "HITLUG 注册名“哈尔滨工业大学 Linux 开源学生俱乐部”，2019 年注册于计算学部。俱乐部为 GNU/Linux 爱好者与喜爱开源的同学提供交流的平台；俱乐部同时推广自由软件在学生中的使用、支持开源的发展，并为开源注入学生力量。"
+                    "text": "HITLUG 注册名为“哈尔滨工业大学 Linux 开源学生俱乐部”，2019 年注册于计算学部。俱乐部为 GNU/Linux 爱好者与喜爱开源的同学提供交流的平台；俱乐部同时推广自由软件在学生中的使用、支持开源的发展，并为开源注入学生力量。"
                 },
                 {
                     "title": "Activities",
                     "text": "我们会在每年举办 Release Party、SFD 等活动，也面向俱乐部内外举办 Linux 与相关开源技术讲座。同时我们也会举办开源文化讲座，推广自由软件在学生中的使用。"
                 },
                 {
-                    "title": "Proin",
-                    "text": "Proin consectetur iaculis sapien, eu ultrices arcu suscipit maximus. Nulla ut urna dictum, condimentum diam id, tincidunt justo. Sed a diam urna. Ut sed blandit augue. Ut interdum diam ut risus imperdiet blandit."
+                    "title": "Services",
+                    "text": "我们运行维护了<a href=\"//mirrors.hit.edu.cn/\">哈尔滨工业大学开源镜像站</a>、<a href=\"//git.hit.edu.cn/\">哈尔滨工业大学 GitLab 服务</a>，为校内外师生提供优质的服务。"
                 }
             ]
         }
