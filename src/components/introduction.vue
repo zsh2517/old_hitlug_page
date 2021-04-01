@@ -71,4 +71,19 @@ h1 {
 h2 {
     margin-top: 0;
 }
+
+>>> a {
+    color: #1890ff;
+    text-decoration: none;
+}
+
+>>> a:visited {
+    color: #1890ff;
+    text-decoration: none;
+}
+
+>>> a:hover {
+    color: #66ccff;
+    text-decoration: none;
+}
 </style>
