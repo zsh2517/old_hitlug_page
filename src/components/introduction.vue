@@ -8,19 +8,19 @@
         <div v-for="(item, index) in list" :key="index"
              style="overflow: hidden; box-shadow:0 5px 15px rgb(0 0 0 / 8%); margin-top: 20px">
             <el-row :gutter="0" style="height: 100%;">
-                <el-col v-if="index % 2 === 1" :lg="12" style="height: 100%;">
+                <el-col v-if="index % 2 === 1" :lg="8" style="height: 100%;">
                     <div class="test1"></div>
                 </el-col>
                 <el-col v-if="index % 2 === 0" :lg="12" class="hidden-lg-and-up" style="height: 100%;">
                     <div class="test1"></div>
                 </el-col>
-                <el-col :lg="12">
+                <el-col :lg="8">
                     <div style="padding: 2em;">
                         <h2>{{ item.title }}</h2>
                         <span v-html="item.text"></span>
                     </div>
                 </el-col>
-                <el-col v-if="index % 2 === 0" :lg="12" class="hidden-md-and-down" style="height: 100%;">
+                <el-col v-if="index % 2 === 0" :lg="8" class="hidden-md-and-down" style="height: 100%;">
                     <div class="test1"></div>
                 </el-col>
             </el-row>
