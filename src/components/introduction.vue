@@ -16,8 +16,8 @@
                 </el-col>
                 <el-col :lg="12">
                     <div style="padding: 2em;">
-                        <h2>{{ item.title }}</h2>
-                        <span v-html="item.text"></span>
+                        <h2 style="font-size: 2em;">{{ item.title }}</h2>
+                        <span v-html="item.text" style="font-size: x-large;"></span>
                     </div>
                 </el-col>
                 <el-col v-if="index % 2 === 0" :lg="12" class="hidden-md-and-down" style="height: 100%;">
